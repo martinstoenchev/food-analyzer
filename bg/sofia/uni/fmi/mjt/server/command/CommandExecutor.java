@@ -29,7 +29,7 @@ public class CommandExecutor {
     private static final String DISCONNECT = "disconnect";
     private static final String UNKNOWN_COMMAND = "Unknown command";
 
-    private static final String API_KEY = "PTyaUei0qaSEUaB1sMR6xDlbvDsBiRWxmZyYayD1";
+    private static final String API_KEY = "PUT_YOUR_API_KEY_HERE";
     private static final String API_ENDPOINT_SCHEME = "https";
     private static final String API_ENDPOINT_HOST = "api.nal.usda.gov";
     private static final String API_ENDPOINT_SEARCH_PATH = "/fdc/v1/foods/search";

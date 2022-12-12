@@ -1,4 +1,4 @@
-# Food Analyzer :hamburger:
+# Food Analyzer
 
 I have implemented Food Analyzer as a multi-threaded client-server application.
 

@@ -41,6 +41,8 @@ Requests to the REST API require API key authentication, which you can get by re
 
 From the product data, we are interested in the description of the product from the `description` field (`RAFFAELLO, ALMOND COCONUT TREAT`) and its unique identifier, `fdcId` (`415269`). Some products, specifically those with `data type` `Branded`, also have a GTIN or UPC code, `gtinUpc` (`009800146130`).
 
+The server caches the received information on the local file system. Upon receiving a request, the server must first check to see if information about the given product already exists in the cache, and if so, return that information directly instead of making a new request to the REST API.
+
 ## Food Analyzer Client
 
 The client connects to the *Food Analyzer Server* on a specific port, reads commands from the standard input, sends them to the server, and outputs the result in human-readable format. The client can execute the following commands:
